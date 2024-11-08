@@ -1,5 +1,21 @@
-template-repository (1.0-1) unstable; urgency=medium
+golang-github-buger-goterm (0.0+git20181115.c206103-3) unstable; urgency=medium
 
-  * Initial release
+  [ Debian Janitor ]
+  * Set upstream metadata fields: Bug-Database, Bug-Submit.
+  * Update standards version to 4.5.0, no changes needed.
+  * Apply multi-arch hints. + golang-github-buger-goterm-dev: Add Multi-Arch: foreign.
 
- -- Tsic404 <liuheng@deepin.org>  Sat, 28 Jan 2023 13:46:49 +0800
+ -- Jelmer Vernooĳ <jelmer@debian.org>  Thu, 24 Nov 2022 11:26:48 +0000
+
+golang-github-buger-goterm (0.0+git20181115.c206103-2) unstable; urgency=medium
+
+  * Standards-Version: 4.4.1.
+  * docs: install README.
+
+ -- Dmitry Smirnov <onlyjob@debian.org>  Tue, 29 Oct 2019 21:11:52 +1100
+
+golang-github-buger-goterm (0.0+git20181115.c206103-1) unstable; urgency=medium
+
+  * Initial release (Closes: #939870).
+
+ -- Dmitry Smirnov <onlyjob@debian.org>  Tue, 10 Sep 2019 02:07:29 +1000
